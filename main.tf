@@ -4,4 +4,4 @@ data "aws_availability_zones" "demo" {
 
 output "zones" {
   value = data.aws_availability_zones.demo.names
-}
+} 
